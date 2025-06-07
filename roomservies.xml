@@ -17,7 +17,7 @@
          remote="gh"/>
  
 <!--  Kernel source  -->
-<project name="android_kernel_sony_msm8930 " 
+<project name="skye-pa1n/android_kernel_sony_msm8930 " 
          path="kernel/sony/msm8930"
          remote="gh"/> 
 </manifest>
