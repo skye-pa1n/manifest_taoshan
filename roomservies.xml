@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Remote config -->
+<remote name="gh"
+        fetch="https://github.com/"
+        revision="lineage-16.0"/>
+  
+<!--  Device tree  -->
+<project name="skye-pa1n/android_device_sony_taoshan"
+         path="device/sony/taoshan" 
+         remote="gh"/>
+
+  <!--  Vendor tree  -->
+<project name="skye-pa1n/android_vendor_sony_taoshan" 
+         path="vendor/sony/taoshan"
+         remote="gh"/>
+ 
+<!--  Kernel source  -->
+<project name="android_kernel_sony_msm8930 " 
+         path="kernel/sony/msm8930"
+         remote="gh"/> 
+  
