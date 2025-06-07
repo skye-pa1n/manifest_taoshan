@@ -11,7 +11,7 @@
          path="device/sony/taoshan" 
          remote="gh"/>
 
-  <!--  Vendor tree  -->
+<!--  Vendor tree  -->
 <project name="skye-pa1n/android_vendor_sony_taoshan" 
          path="vendor/sony/taoshan"
          remote="gh"/>
@@ -20,4 +20,4 @@
 <project name="android_kernel_sony_msm8930 " 
          path="kernel/sony/msm8930"
          remote="gh"/> 
-  
+</manifest>
