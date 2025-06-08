@@ -51,6 +51,11 @@ git clone https://github.com/skye-pa1n/manifest_taoshan.git  --depth=1 -b lineag
 repo sync -c -j8 --force-sync --no-clone-bundle --no-tags && repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 ```
 
+clone kernel
+```
+git clone https://github.com/skye-pa1n/android_kernel_sony_msm8930 kernel/sony/msm8930 --depth=1
+```
+
 - Finally, build as you like.
 ```
 source build/envsetup.sh
