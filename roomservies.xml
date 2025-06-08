@@ -13,6 +13,6 @@
 
 <!--  Vendor tree  -->
 <project name="skye-pa1n/android_vendor_sony_taoshan" 
-         path="vendor/sony/taoshan"
+         path="vendor/sony/"
          remote="gh"/>
 </manifest>
