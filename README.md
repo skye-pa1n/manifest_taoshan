@@ -34,7 +34,7 @@ ccache -M 25G
 
 - Initialize repo in this directory with the LineageOS 16.0 repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-16.0 --git-lfs --no-clone-bundle --depth=1
+repo init -u https://github.com/LineageOS/android.git -b lineage-16.0 --git-lfs --no-clone-bundle
 ```
 
 - Clone this repo to .repo/local_manifests for roomservice.xml containing the repositories with the device/vendor/hw trees needed to build for the Xperia L:
