@@ -62,23 +62,22 @@ source build/envsetup.sh
 croot
 brunch taoshan
 ```
-
+export ALLOW_MISSING_DEPENDENCIES=true
 
 - External backup, ignore
 ```
 cd /media/skye/GOS/android/external/
-rm -rf fonttools
-git clone --depth=1 https://android.googlesource.com/platform/external/fonttools fonttools
 rm -rf gemmlowp
-git clone --depth=1 https://android.googlesource.com/platform/external/gemmlowp gemmlowp
+rm -rf fonttools
 rm -rf freetype
-git clone --depth=1 https://android.googlesource.com/platform/external/freetype freetype
 rm -rf fsck_msdos
-git clone --depth=1 https://android.googlesource.com/platform/external/fsck_msdos fsck_msdos
-rm -rf error_prone
-git clone --depth=1 https://android.googlesource.com/platform/external/error_prone error_prone
 rm -rf dexmaker
-git clone --depth=1 https://android.googlesource.com/platform/external/dexmaker dexmaker
-rm -rf esd
-git clone --depth=1 https://android.googlesource.com/platform/external/esd esd
+
+git clone https://android.googlesource.com/platform/external/fonttools -b android-9.0.0_r46 fonttools
+git clone https://android.googlesource.com/platform/external/gemmlowp -b android-9.0.0_r46 gemmlowp
+git clone https://android.googlesource.com/platform/external/freetype -b android-9.0.0_r46 freetype
+git clone https://android.googlesource.com/platform/external/fsck_msdos -b android-9.0.0_r46 fsck_msdos
+git clone https://android.googlesource.com/platform/external/error_prone -b android-9.0.0_r46 error_prone
+git clone https://android.googlesource.com/platform/external/dexmaker -b android-9.0.0_r46 dexmaker
+git clone https://android.googlesource.com/platform/external/esd -b android-9.0.0_r46 esd
 ```
