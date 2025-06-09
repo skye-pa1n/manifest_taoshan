@@ -76,7 +76,7 @@ rm -rf dexmaker
 git clone https://android.googlesource.com/platform/external/fonttools -b android-9.0.0_r46 fonttools
 git clone https://android.googlesource.com/platform/external/gemmlowp -b android-9.0.0_r46 gemmlowp
 git clone https://android.googlesource.com/platform/external/freetype -b android-9.0.0_r46 freetype
-git clone https://android.googlesource.com/platform/external/fsck_msdos -b android-9.0.0_r46 fsck_msdos
+git clone https://github.com/LineageOS/android_external_fsck_msdos -b lineage-16.0 fsck_msdos
 git clone https://android.googlesource.com/platform/external/error_prone -b android-9.0.0_r46 error_prone
 git clone https://android.googlesource.com/platform/external/dexmaker -b android-9.0.0_r46 dexmaker
 git clone https://android.googlesource.com/platform/external/esd -b android-9.0.0_r46 esd
