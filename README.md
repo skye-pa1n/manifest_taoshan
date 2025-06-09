@@ -62,3 +62,16 @@ source build/envsetup.sh
 croot
 brunch taoshan
 ```
+
+
+- External backup, ignore
+```
+cd /media/skye/GOS/android/external/
+git clone https://android.googlesource.com/platform/external/fonttools fonttools
+git clone https://android.googlesource.com/platform/external/gemmlowp gemmlowp
+git clone https://android.googlesource.com/platform/external/freetype freetype
+git clone https://android.googlesource.com/platform/external/fsck_msdos fsck_msdos
+git clone https://android.googlesource.com/platform/external/error_prone error_prone
+git clone https://android.googlesource.com/platform/external/dexmaker dexmaker
+git clone https://android.googlesource.com/platform/external/esd esd
+```
