@@ -73,6 +73,7 @@ rm -rf freetype
 rm -rf fsck_msdos
 rm -rf dexmaker
 
+git clone https://github.com/skye-pa1n/device-sony-common-init device/sony/common
 git clone https://android.googlesource.com/platform/external/fonttools -b android-9.0.0_r46 fonttools
 git clone https://android.googlesource.com/platform/external/gemmlowp -b android-9.0.0_r46 gemmlowp
 git clone https://android.googlesource.com/platform/external/freetype -b android-9.0.0_r46 freetype
