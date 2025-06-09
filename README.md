@@ -2,7 +2,7 @@
 
 Some extremely basic instructions:
 
-- Make a new directory for Evolution sources and enter it:
+- Make a new directory for Lineage sources and enter it:
 ```
 mkdir los
 cd los
@@ -34,7 +34,7 @@ ccache -M 25G
 
 - Initialize repo in this directory with the LineageOS 16.0 repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-16.0 --git-lfs --no-clone-bundle
+repo init -u https://github.com/LineageOS/android.git -b lineage-16.0
 ```
 
 - Clone this repo to .repo/local_manifests for roomservice.xml containing the repositories with the device/vendor/hw trees needed to build for the Xperia L:
