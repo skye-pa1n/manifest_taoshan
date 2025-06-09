@@ -67,11 +67,18 @@ brunch taoshan
 - External backup, ignore
 ```
 cd /media/skye/GOS/android/external/
-git clone https://android.googlesource.com/platform/external/fonttools fonttools
-git clone https://android.googlesource.com/platform/external/gemmlowp gemmlowp
-git clone https://android.googlesource.com/platform/external/freetype freetype
-git clone https://android.googlesource.com/platform/external/fsck_msdos fsck_msdos
-git clone https://android.googlesource.com/platform/external/error_prone error_prone
-git clone https://android.googlesource.com/platform/external/dexmaker dexmaker
-git clone https://android.googlesource.com/platform/external/esd esd
+rm -rf fonttools
+git clone --depth=1 https://android.googlesource.com/platform/external/fonttools fonttools
+rm -rf gemmlowp
+git clone --depth=1 https://android.googlesource.com/platform/external/gemmlowp gemmlowp
+rm -rf freetype
+git clone --depth=1 https://android.googlesource.com/platform/external/freetype freetype
+rm -rf fsck_msdos
+git clone --depth=1 https://android.googlesource.com/platform/external/fsck_msdos fsck_msdos
+rm -rf error_prone
+git clone --depth=1 https://android.googlesource.com/platform/external/error_prone error_prone
+rm -rf dexmaker
+git clone --depth=1 https://android.googlesource.com/platform/external/dexmaker dexmaker
+rm -rf esd
+git clone --depth=1 https://android.googlesource.com/platform/external/esd esd
 ```
