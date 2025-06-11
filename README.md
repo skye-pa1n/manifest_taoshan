@@ -17,7 +17,7 @@ sudo apt install bc bison build-essential curl flex g++-multilib gcc-multilib gi
 ```
 curl https://storage.googleapis.com/git-repo-downloads/repo > repo
 chmod a+x repo
-mv ./repo /usr/bin
+sudo mv ./repo /usr/bin
 ```
 
 - Install ccache
