@@ -1,4 +1,4 @@
-# Manifest for building LineageOS 16.0 for Sony Xperia L
+# Manifest for building LineageOS 15.1 for Sony Xperia L
 
 Some extremely basic instructions:
 
@@ -34,12 +34,12 @@ ccache -M 25G
 
 - Initialize repo in this directory with the LineageOS 16.0 repository:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-16.0
+repo init -u https://github.com/LineageOS/android.git -b lineage-15.1
 ```
 
 - Clone this repo to .repo/local_manifests for roomservice.xml containing the repositories with the device/vendor/hw trees needed to build for the Xperia L:
 ```
-git clone https://github.com/skye-pa1n/manifest_taoshan.git  --depth=1 -b lineage-16.0 .repo/local_manifests
+git clone https://github.com/skye-pa1n/manifest_taoshan.git  --depth=1 -b lineage-15.1 .repo/local_manifests
 ```
 
 - Sync all of the repositories in manifests:
