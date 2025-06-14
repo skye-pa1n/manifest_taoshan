@@ -9,7 +9,8 @@
 <!--  Device tree  -->
 <project name="skye-pa1n/device_taoshan"
          path="device/sony/taoshan" 
-         remote="gh"/>
+         remote="gh"
+         revision="main"/>
 
 <!--  Vendor tree  -->
 <project name="skye-pa1n/android_vendor_sony_taoshan" 
