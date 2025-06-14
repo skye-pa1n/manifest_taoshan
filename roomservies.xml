@@ -7,7 +7,7 @@
         revision="lineage-16.0"/>
   
 <!--  Device tree  -->
-<project name="skye-pa1n/android_device_sony_taoshan"
+<project name="skye-pa1n/device_taoshan"
          path="device/sony/taoshan" 
          remote="gh"/>
 
