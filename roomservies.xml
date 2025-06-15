@@ -10,7 +10,10 @@
 <project name="skye-pa1n/android_device_sony_taoshan"
          path="device/sony/taoshan" 
          remote="gh"/>
-
+<project name="skye-pa1n/android_device_sony_common"
+         path="device/sony/common" 
+         remote="gh"/>
+        
 <!--  Vendor tree  -->
 <project name="skye-pa1n/android_vendor_sony_taoshan" 
          path="vendor/sony/taoshan"
