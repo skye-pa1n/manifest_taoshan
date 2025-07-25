@@ -10,9 +10,15 @@
 <project name="skye-pa1n/android_device_sony_taoshan"
          path="device/sony/taoshan" 
          remote="gh"/>
-<project name="skye-pa1n/android_device_sony_common"
+        
+<project name="skye-pa1n/device-sony-common"
          path="device/sony/common" 
          remote="gh"/>
+        
+<project name="skye-pa1n/device-sony-common-init"
+         path="device/sony/common/init" 
+         remote="gh"
+         revision="master"/>
         
 <!--  Vendor tree  -->
 <project name="skye-pa1n/android_vendor_sony_taoshan" 
