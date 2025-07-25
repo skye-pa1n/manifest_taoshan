@@ -16,7 +16,7 @@
          remote="gh"/>
         
 <project name="skye-pa1n/device-sony-common-init"
-         path="device/sony/common/init" 
+         path="device/sony/init" 
          remote="gh"
          revision="master"/>
         
