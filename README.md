@@ -10,7 +10,7 @@ cd los
 
 - Install Building Dependencies
 ```
-sudo apt install bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf libxml2 lib32z1-dev liblz4-tool libncurses-dev libsdl1.2-dev imagemagick git lunzip lzop schedtool squashfs-tools xsltproc zip zlib1g-dev python3 perl xmlstarlet virtualenv xz-utils rr jq libncurses5 pngcrush lib32ncurses5-dev git-lfs libxml2 openjdk-17-jre-headless rsync
+sudo apt install bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf libxml2 lib32z1-dev libncurses5-dev libsdl1.2-dev imagemagick git lunzip lzop schedtool squashfs-tools xsltproc zip zlib1g-dev python3 perl xmlstarlet virtualenv xz-utils rr jq pngcrush git-lfs libxml2 rsync
 ```
 
 - Install repo bin to system:
